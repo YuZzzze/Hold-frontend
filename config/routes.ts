@@ -1,24 +1,27 @@
 export const routes = [
   {
-    path: '/',
-    redirect: '/home',
-  },
-  {
     path: '/login',
-    component: 'Login',
-    wrappers: ['@/layouts/LoginLayout'],
+    component: './Login',
   },
   {
-    name: '首页',
-    path: '/home',
-    component: '@/pages/Home',
+    path: '/',
+    component: '@/layouts/BasicLayout',
+    routes: [
+      {
+        path: '/',
+        redirect: '/home',
+      },
+      {
+        name: '首页',
+        path: '/home',
+        component: './Home',
+      },
+    ],
   },
   {
     path: '/admin',
     component: '@/layouts/AdminLayout',
-    routes: [
-      { path: '/admin/dashboard', component: '@/pages/Admin/Dashboard' },
-    ],
+    routes: [{ path: '/admin/dashboard', component: './Admin/Dashboard' }],
   },
 
   { path: '/*', component: '@/pages/404' },
