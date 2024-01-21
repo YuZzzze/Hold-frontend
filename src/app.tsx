@@ -16,5 +16,7 @@ export const antd: RuntimeAntdConfig = (memo) => {
       ? theme.defaultAlgorithm
       : theme.darkAlgorithm;
 
+  memo.theme.token = { borderRadius: 4 };
+
   return memo;
 };

@@ -1,5 +1,16 @@
 {
-  "Hold": "Hold Cloud",
-  "light": "light",
-  "dark": "dark"
+  "Hold 厚德": "Hold Cloud",
+  "明亮": "light",
+  "暗黑": "dark",
+  "登录": "Login",
+  "注册": "Register",
+  "提醒输入": "Please enter the {{name}}",
+  "手机号码": "Phone number",
+  "密码": "Password",
+  "验证码": "Verification code",
+  "发送验证码": "Send code",
+  "请再次输入密码": "Please enter the password again",
+  "确认密码": "Confirm password",
+  "使用验证码登录": "Login with verification code",
+  "使用密码登录": "Login with password"
 }

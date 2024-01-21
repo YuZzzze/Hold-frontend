@@ -16,7 +16,7 @@ const ThemeToggle = () => {
         }
       }}
     >
-      {theme === 'light' ? t('light') : t('dark')}
+      {theme === 'light' ? t('明亮') : t('暗黑')}
     </Button>
   );
 };

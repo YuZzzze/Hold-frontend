@@ -22,7 +22,7 @@ const App: React.FC = () => {
         backgroundColor: colorBgContainer,
       }}
     >
-      <div className="text-2xl font-bold">{t('Hold')}</div>
+      <div className="text-2xl font-bold">{t('Hold 厚德')}</div>
       <Space>
         <ThemeToggle />
         <LanguageToggle />
