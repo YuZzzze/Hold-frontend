@@ -32,7 +32,7 @@ const AuthForm: React.FC = () => {
     <Card
       title={
         <Tabs
-          defaultActiveKey=""
+          defaultActiveKey="login"
           centered
           items={[
             {
@@ -48,7 +48,7 @@ const AuthForm: React.FC = () => {
         />
       }
       bordered={false}
-      headStyle={{ border: 'none', padding: 0 }}
+      headStyle={{ border: 'none', padding: 0, paddingTop: 30 }}
       bodyStyle={{
         display: 'flex',
         justifyContent: 'center',
